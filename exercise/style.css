@@ -1,7 +1,10 @@
-/* h1 {
+h1 {
     color: aqua;
-} */
+}
+h1, h2 {
+    font-size: 50px;
+}
 
-h1 ,h2 {
-    color: brown;
+h2 {
+    color: blue;
 }
