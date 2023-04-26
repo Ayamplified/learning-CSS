@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
-header {
+/* header {
     width: 100%;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     height: 70px;
     line-height: 70px;
 }
@@ -34,5 +34,55 @@ a {
 .right-menu {
 float: right;
 }
+
+ */
+header {
+    width: 100%;
+    background-color:black;
+}
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+    height: 100%;
+    line-height: 100%;
+
+}
+#logo {
+    float: left;
+}
+#logo img {
+    width: 100%;
+}
+.box {
+    display: inline-block;
+
+}
+.right-menu {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+}
+.clear {
+    clear:both;
+    display : table }
+
+.btn-special {
+    border: 1px solid white;
+    padding: 1px 3px;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+
+
+
+
+
 
 
