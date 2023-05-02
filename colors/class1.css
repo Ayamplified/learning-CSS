@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}                                                                                                   
+h2 {
+    color:darkblue;
+}
+.wrapper {
+    background-color: white;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+}
+.images {
+    display: inline-block;
+    width: 20%;
+    
+}
+a.special:hover {
+text-decoration: underline;
+}
+p.special {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.images p {
+    font-size: 20px;
+}
