@@ -1,88 +1,43 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* ul li {
+    margin-top: 30px;
+    list-style-type: none;
 }
-
-/* header {
-    width: 100%;
-    background-color: aqua;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: blueviolet;
-    height: 70px;
-    line-height: 70px;
-}
-.right-menu {
-    display: inline-block;
-}
-#logo {
-    width: 80px;
-    display: inline-block;
-}
-#logo img {
-    width: 100%;
-}
-a {
+li a {
     text-decoration: none;
-    margin-right: 10px;
-    color: black
+    
 }
-.right-menu {
-float: right;
+.btn {
+    border: 5px 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    backgrou
+    nd-color:green;
 }
-
- */
-header {
-    width: 100%;
-    background-color:black;
+.btn::before {
+    content: "Hello ";
 }
-.wrap {
-    width: 80%;
-    margin: 0 auto;
-    /* background-color: blueviolet; */
-    height: 100%;
-    line-height: 100%;
-
-}
-#logo {
-    float: left;
-}
-#logo img {
-    width: 100%;
-}
-.box {
-    display: inline-block;
-
-}
-.right-menu {
-    float: right;
-}
-
-a {
-    text-decoration: none;
-    margin-right: 10px;
+.btn:hover {
     color: white;
-    background-color: black;
-}
-.clear {
-    clear:both;
-    display : table }
+    background-color: blueviolet;
+} */
 
-.btn-special {
-    border: 1px solid white;
-    padding: 1px 3px;
-    border-radius: 7px;
-    font-weight: 500;
+.wrap {
+    color: black;
+    
+    
+
 }
 
 
+.btn {
+    padding: 5px 10px;
+    background-color:gainsboro;
+    text-decoration: none;
+    transition: all .5s;
+    
+}
 
+.btn:hover {
 
-
-
-
-
+    border: 1px solid grey;
+}
