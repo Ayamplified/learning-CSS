@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: midnightblue;
+}
+
+.general {
+  margin: 50px auto 0;
+  width: 30%;
+}
+
+/* .wrapper {
+  width: 100%;
+  background-color: midnightblue;
+} */
+
+.logo {
+  width: 150px;
+  transform: translateX(60%);
+}
+img {
+  width: 100%;
+  /* margin-top: 50%;
+  margin-bottom: 20px; */
+}
+
+form {
+  background-color: white;
+  padding: 10px;
+}
+form h3 {
+  width: 80%;
+  margin-left: 8%;
+  margin-bottom: 10px;
+}
+form h4 {
+  margin-top: 20px;
+  text-align: center;
+}
+form h4 a {
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+form h4 a:hover {
+  color: black;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+  margin-left: 8%;
+}
+
+input {
+  width: 80%;
+  margin: 0 30px 10px;
+  padding: 8px;
+}
+input[type="button"] {
+  background-color: aqua;
+  color: white;
+  width: 40%;
+  margin-left: 30%;
+  border: none;
+  opacity: 0.5;
+}
+input[type="button"]:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.bottom p a {
+  color: white;
+}
+.bottom p {
+  text-align: center;
+}
+.special {
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.special a {
+  text-decoration: none;
+}
+.special a:hover {
+  opacity: 0.7;
+  color: orangered;
+}
+.regular a:hover {
+  opacity: 0.7;
+}
+.regular1 a:hover {
+  opacity: 0.7;
+}
+.regular1 a {
+  text-decoration: none;
+}
+.small a {
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+}
+.small {
+  text-align: center;
+  margin-top: 20px;
+}
+.small a img {
+  border-radius: 50%;
+}
