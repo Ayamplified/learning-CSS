@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.general {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.nav {
+  float: right;
+  margin-top: 20px;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.nav button {
+  padding: 10px;
+  background-color: dodgerblue;
+  margin-left: 50px;
+  opacity: 0.8;
+  border: 0;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.nav button:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+.nav button a:hover {
+  text-decoration: none;
+}
+.nav button a {
+  color: white;
+}
+.clear {
+  display: block;
+  clear: both;
+}
+#logo {
+  text-align: center;
+  margin-top: 30px;
+}
+form {
+  background-color: white;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+input[type="text"] {
+  display: block;
+  width: 100%;
+  margin: 30px 0px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 2px solid rgba(237, 241, 237, 0.7);
+  outline: none;
+}
+input[type="text"]:hover {
+  box-shadow: 3px 3px 4px rgb(237, 241, 237), -3px -3px 4px rgb(237, 241, 237);
+}
+input[type="button"] {
+  padding: 10px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+input[type="button"]:hover {
+  cursor: pointer;
+  border: 1px solid rgba(131, 134, 131, 0.2);
+  border-radius: 3px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
