@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
 .general {
   margin: 0 auto;
   width: 80%;
@@ -86,4 +92,56 @@ p a {
 
 p a:hover {
   text-decoration: underline;
+}
+
+p.special {
+  display: inline-block;
+}
+p.left {
+  display: inline-block;
+  float: left;
+  margin-right: 80px;
+}
+p.centre {
+  display: inline-block;
+}
+p.right {
+  display: inline-block;
+  float: right;
+}
+p.left a {
+  margin-right: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+p.centre a {
+  color: black;
+  text-decoration: none;
+}
+
+p.right a {
+  margin-right: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+p.left a:hover {
+  text-decoration: underline;
+}
+
+p.centre a:hover {
+  text-decoration: underline;
+}
+
+p.right a:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  position: absolute;
+  background-color: gray;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
