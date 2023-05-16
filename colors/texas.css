@@ -1,0 +1,72 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.General {
+  margin: 0 auto;
+  width: 70%;
+}
+.wrapper {
+  width: 100%;
+  background-color: dimgray;
+}
+
+#logo {
+  color: white;
+  width: 20%;
+  padding: 2%;
+  display: inline-block;
+  float: left;
+  padding-left: 0;
+}
+#logo img {
+  width: 100%;
+}
+.wrapper h4 {
+  display: inline-block;
+  width: 76%;
+  padding-top: 3%;
+  color: white;
+}
+
+h1 {
+  margin: 15px 0;
+}
+
+.clear {
+  display: block;
+  clear: both;
+}
+.Picture {
+  background: url("https://www.utrgv.edu/newsroom/2023/images/05/engineering-computer-building-ed.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 400px;
+}
+.bottom {
+  background-color: black;
+  color: white;
+  padding: 20px 50px 20px 20px;
+  font-size: 0.8em;
+}
+
+@media (max-width: 770px) {
+  #logo {
+    width: 35%;
+  }
+  .wrapper h4 {
+    width: 40%;
+    font-weight: lighter;
+  }
+
+  .General {
+    width: 98%;
+  }
+}
